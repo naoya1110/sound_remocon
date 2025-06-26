@@ -1,17 +1,17 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\Users\iwamoto\Desktop\sound_remocon_kicad\mixer_circuit.asc
-Start Time: Mon Dec 30 21:41:07 2024
+Start Time: Thu Jun 26 22:51:22 2025
 solver = Normal
 Maximum thread count: 8
 tnom = 27
 temp = 27
 method = modified trap
-Limiting rise time of source v2 to 1.25e-05
-Limiting fall time of source v2 to 1.25e-05
-Limiting rise time of source v3 to 1e-05
-Limiting fall time of source v3 to 1e-05
-Limiting rise time of source v4 to 8.3327e-06
-Limiting fall time of source v4 to 8.3327e-06
+Limiting rise time of source v5 to 0.0001
+Limiting fall time of source v5 to 0.0001
+Limiting rise time of source v2 to 8.33e-05
+Limiting fall time of source v2 to 8.33e-05
+Limiting rise time of source v3 to 7.14e-05
+Limiting fall time of source v3 to 7.14e-05
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -22,15 +22,20 @@ Gmin = 0.00132923
 Gmin = 0.000142725
 Gmin = 1.5325e-05
 Gmin = 1.6455e-06
-Gmin = 1.76685e-07
-Gmin = 1.89714e-08
-Gmin = 2.03704e-09
-Gmin = 2.18725e-10
-Gmin = 2.34854e-11
-Gmin = 2.52173e-12
-Gmin = 2.70769e-13
+vernier = 0.5
+Gmin = 3.06744e-07
+vernier = 0.666667
+Gmin = 7.59426e-08
+vernier = 0.888888
+vernier = 1
+Gmin = 9.33136e-09
+Gmin = 1.00195e-09
+Gmin = 1.07583e-10
+Gmin = 1.15517e-11
+Gmin = 1.24035e-12
+Gmin = 1.33182e-13
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 14.210 seconds.
+Total elapsed time: 9.451 seconds.
 
