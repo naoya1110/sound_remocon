@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2024-12-30T22:27:32+09:00*%
+%TF.ProjectId,sound_remocon,736f756e-645f-4726-956d-6f636f6e2e6b,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2024-12-30 22:27:32*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X20000000Y-20000000D02*
+X120000000Y-20000000D01*
+X120000000Y-90000000D01*
+X20000000Y-90000000D01*
+X20000000Y-20000000D01*
+M02*
