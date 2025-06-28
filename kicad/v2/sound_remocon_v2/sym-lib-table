@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "joystick_RKJXV122400R_breakout")(type "KiCad")(uri "${KIPRJMOD}/joystick_RKJXV122400R_breakout.kicad_sym")(options "")(descr ""))
+)
