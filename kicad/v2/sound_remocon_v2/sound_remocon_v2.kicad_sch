@@ -259,6 +259,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
 				(offset 1.016)
@@ -686,6 +849,167 @@
 				)
 			)
 			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2017,6 +2341,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "joystick:RKJXV122400R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2799,6 +3299,18 @@
 		(uuid "0c8bfa34-e473-47e5-aea3-4813b38af650")
 	)
 	(junction
+		(at 308.61 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "188a89c5-fc6f-47c8-8716-b913fc7b5b27")
+	)
+	(junction
+		(at 81.28 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "190f7759-7549-4d1c-a3e6-4162a1ee4231")
+	)
+	(junction
 		(at 59.69 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2865,6 +3377,12 @@
 		(uuid "577395a8-8bf5-4182-80fe-baebbe5c605a")
 	)
 	(junction
+		(at 304.8 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aef92c7-6103-4909-8d08-7eaf138ea00d")
+	)
+	(junction
 		(at 54.61 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2917,6 +3435,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a7fa5db-bff6-4dcb-8f61-6cdd7b510da8")
+	)
+	(junction
+		(at 373.38 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80241b49-b343-49bf-814f-f1e87c9275d3")
 	)
 	(junction
 		(at 293.37 158.75)
@@ -2973,6 +3497,12 @@
 		(uuid "bafd1c39-ff3c-4d15-8bb7-0ff24c437a8b")
 	)
 	(junction
+		(at 26.67 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd92c5e-436d-4b1e-97f2-ea6c83976c51")
+	)
+	(junction
 		(at 194.31 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3013,12 +3543,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d22c8569-70c0-42d2-b131-1703333f9be1")
-	)
-	(junction
-		(at 308.61 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f24337b0-0218-4a00-b366-f4dcaae54e90")
 	)
 	(junction
 		(at 106.68 229.87)
@@ -3091,6 +3615,10 @@
 	(no_connect
 		(at 109.22 105.41)
 		(uuid "d946f2b0-d63f-490d-b982-399855578994")
+	)
+	(no_connect
+		(at 43.18 26.67)
+		(uuid "f1eac3f8-f55b-4e62-a15f-073b8d7b7437")
 	)
 	(no_connect
 		(at 109.22 69.85)
@@ -3228,6 +3756,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 24.13) (xy 33.02 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad1bea6-9efe-4a88-a258-9df72a3f5775")
+	)
+	(wire
+		(pts
 			(xy 363.22 119.38) (xy 363.22 120.65)
 		)
 		(stroke
@@ -3328,7 +3866,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 81.28 44.45)
+			(xy 81.28 40.64) (xy 81.28 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3458,6 +3996,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 43.18) (xy 81.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34938434-24e5-4b48-a48e-23f6ccefd25e")
+	)
+	(wire
+		(pts
 			(xy 91.44 41.91) (xy 91.44 44.45)
 		)
 		(stroke
@@ -3465,6 +4013,16 @@
 			(type default)
 		)
 		(uuid "349a29d5-b839-4b08-bc62-b3b14a37fadc")
+	)
+	(wire
+		(pts
+			(xy 81.28 43.18) (xy 81.28 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35eaf64d-3e50-4a8f-af53-dc114d917fb9")
 	)
 	(wire
 		(pts
@@ -3495,6 +4053,16 @@
 			(type default)
 		)
 		(uuid "36e942d3-f49c-47db-bc10-3581d904f81b")
+	)
+	(wire
+		(pts
+			(xy 184.15 46.99) (xy 187.96 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375facbf-ecdb-4b3b-bcb3-ff54075a4452")
 	)
 	(wire
 		(pts
@@ -3578,7 +4146,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 69.85) (xy 317.5 62.23)
+			(xy 317.5 129.54) (xy 317.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3628,6 +4196,16 @@
 	)
 	(wire
 		(pts
+			(xy 317.5 134.62) (xy 308.61 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "514330e4-cae8-48f9-a121-7da366bea8b4")
+	)
+	(wire
+		(pts
 			(xy 88.9 199.39) (xy 93.98 199.39)
 		)
 		(stroke
@@ -3658,6 +4236,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 46.99) (xy 157.48 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593f3cf8-3e7a-41ca-b70e-66739f0bd61f")
+	)
+	(wire
+		(pts
 			(xy 44.45 199.39) (xy 49.53 199.39)
 		)
 		(stroke
@@ -3678,7 +4266,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 62.23) (xy 332.74 62.23)
+			(xy 317.5 121.92) (xy 332.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3858,6 +4446,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 58.42) (xy 304.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d410fbd-32c0-4b65-8ffc-ed800117d473")
+	)
+	(wire
+		(pts
 			(xy 49.53 229.87) (xy 63.5 229.87)
 		)
 		(stroke
@@ -3908,6 +4506,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 40.64) (xy 69.85 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bbab2dd-6625-44c0-8775-5ba1fc5efff7")
+	)
+	(wire
+		(pts
 			(xy 270.51 97.79) (xy 273.05 97.79)
 		)
 		(stroke
@@ -3948,6 +4556,36 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 58.42) (xy 373.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971caafd-095b-4c1c-b2d5-fdc98b7f2008")
+	)
+	(wire
+		(pts
+			(xy 43.18 21.59) (xy 46.99 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97da7883-050c-47f0-9b29-f4ceb4912f00")
+	)
+	(wire
+		(pts
+			(xy 152.4 44.45) (xy 157.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e730f44-7c41-4aa2-8bf4-a756d38135d1")
+	)
+	(wire
+		(pts
 			(xy 194.31 186.69) (xy 194.31 187.96)
 		)
 		(stroke
@@ -3968,13 +4606,13 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 74.93) (xy 317.5 74.93)
+			(xy 184.15 44.45) (xy 187.96 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a386e94d-4d6d-4e98-809f-7cb084f594d5")
+		(uuid "a27f1c53-ec8c-4335-81f1-aef13ba2f9a2")
 	)
 	(wire
 		(pts
@@ -4058,6 +4696,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 54.61) (xy 304.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab515892-c412-45d1-92b2-0b4bd1130e27")
+	)
+	(wire
+		(pts
 			(xy 92.71 242.57) (xy 93.98 242.57)
 		)
 		(stroke
@@ -4115,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "b0d00a38-e438-4018-82f1-45cd2c2f53e5")
+	)
+	(wire
+		(pts
+			(xy 308.61 134.62) (xy 308.61 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d43606-313b-4bfa-8f9c-5083edaced4e")
 	)
 	(wire
 		(pts
@@ -4368,7 +5026,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 62.23) (xy 332.74 72.39)
+			(xy 332.74 121.92) (xy 332.74 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4475,6 +5133,16 @@
 			(type default)
 		)
 		(uuid "f40b7d5c-7d07-42ae-a9fe-473ca5c65b73")
+	)
+	(wire
+		(pts
+			(xy 373.38 58.42) (xy 386.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd40e6d-395b-4b23-98fc-4c3558090a5e")
 	)
 	(wire
 		(pts
@@ -4629,6 +5297,28 @@
 		(uuid "071f06dd-fec2-4c8f-b384-d0e1bbd86e47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 251.4988 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Mixed Signal"
+		(shape input)
+		(at 184.15 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "079ceacf-6a00-4b49-b158-e4514fe8c086")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.9488 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4827,6 +5517,28 @@
 		(uuid "2de084d4-8791-4e35-b59c-dd0cfe1d423a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.44 35.4172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Power5V"
+		(shape output)
+		(at 46.99 21.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e2526df-ff26-4fe3-b596-f6ab2e3bc5e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.8976 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5254,6 +5966,28 @@
 			)
 		)
 	)
+	(global_label "Power5V"
+		(shape input)
+		(at 304.8 54.61 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94439cc5-4a50-4175-98de-7d7d76a52563")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.8 43.7024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 114.3 177.8 0)
@@ -5294,6 +6028,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Power5V"
+		(shape input)
+		(at 81.28 40.64 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f9492cd-f704-4d8e-9cdb-aeced341176b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 29.7324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5681,7 +6437,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "075e2953-094a-4b7c-bccb-ec363f3226cf")
-		(property "Reference" "R32"
+		(property "Reference" "Rf1"
 			(at 325.12 85.344 90)
 			(effects
 				(font
@@ -5697,7 +6453,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 325.12 89.408 90)
 			(effects
 				(font
@@ -5733,7 +6489,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R32")
+					(reference "Rf1")
 					(unit 1)
 				)
 			)
@@ -5749,7 +6505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0808bc27-468b-4626-b946-4e4593835462")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 99.06 213.36 0)
 			(effects
 				(font
@@ -5799,7 +6555,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5815,7 +6571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0940cbe5-d928-4e52-b4f2-79aa700081e0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 160.02 201.93 0)
 			(effects
 				(font
@@ -5865,7 +6621,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -5939,7 +6695,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 368.3 68.58 0)
+		(at 345.44 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5948,7 +6704,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a202817-3011-4a6d-b0a1-407f53cd37e3")
 		(property "Reference" "#PWR027"
-			(at 368.3 72.39 0)
+			(at 345.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +6713,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 368.3 63.5 0)
+			(at 345.44 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5965,7 +6721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 68.58 0)
+			(at 345.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5974,7 +6730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 68.58 0)
+			(at 345.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5983,7 +6739,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 368.3 68.58 0)
+			(at 345.44 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +6848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d5b3985-3ce1-4a68-8191-4c56ed60717e")
-		(property "Reference" "R26"
+		(property "Reference" "R5"
 			(at 287.02 130.556 90)
 			(effects
 				(font
@@ -6108,7 +6864,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 130.048 90)
 			(effects
 				(font
@@ -6144,7 +6900,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R26")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6159,7 +6915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0df0a04a-bad0-4836-8a88-ebf9be21eea3")
-		(property "Reference" "R2"
+		(property "Reference" "Rrs1"
 			(at 100.584 201.93 0)
 			(effects
 				(font
@@ -6177,7 +6933,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 97.282 203.2 90)
 			(effects
 				(font
@@ -6213,73 +6969,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 304.8 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11fb90cf-ea0a-4447-a76f-5768d704458b")
-		(property "Reference" "#PWR024"
-			(at 304.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 304.8 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 304.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 304.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 304.8 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c844d4d-7ac4-4854-8a89-3e1e87023c2e")
-		)
-		(instances
-			(project ""
-				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR024")
+					(reference "Rrs1")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6984,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18134939-8982-4371-9d64-65f0d5a1bd91")
-		(property "Reference" "R22"
+		(property "Reference" "Rc1"
 			(at 287.02 69.596 90)
 			(effects
 				(font
@@ -6310,7 +7000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 69.088 90)
 			(effects
 				(font
@@ -6346,7 +7036,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R22")
+					(reference "Rc1")
 					(unit 1)
 				)
 			)
@@ -6361,7 +7051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "185c435d-c92c-4d41-a639-7913633562d2")
-		(property "Reference" "R10"
+		(property "Reference" "Ra5"
 			(at 266.7 130.81 90)
 			(effects
 				(font
@@ -6377,7 +7067,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 130.048 90)
 			(effects
 				(font
@@ -6413,7 +7103,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R10")
+					(reference "Ra5")
 					(unit 1)
 				)
 			)
@@ -6438,7 +7128,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1000p"
 			(at 351.79 109.2199 0)
 			(effects
 				(font
@@ -6447,7 +7137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 348.9452 111.76 0)
 			(effects
 				(font
@@ -6498,7 +7188,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c621386-12c0-4a09-b7ff-c07634d8ce13")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 273.05 111.76 0)
 			(effects
 				(font
@@ -6548,7 +7238,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6564,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de992d2-423f-4c88-90e3-4813df7aeb18")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 106.68 252.73 0)
 			(effects
 				(font
@@ -6615,7 +7305,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6630,7 +7320,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ecacb7d-ef61-45ab-b27b-b67796ba4f97")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 273.05 142.24 0)
 			(effects
 				(font
@@ -6680,7 +7370,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6695,7 +7385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f0d14cb-83aa-4bbf-95b2-c8d87b992040")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 273.05 157.48 0)
 			(effects
 				(font
@@ -6745,7 +7435,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6761,7 +7451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258385f8-ef4d-4ce9-9f14-ef362fad3e95")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 198.12 179.0699 90)
 			(effects
 				(font
@@ -6815,7 +7505,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -6974,72 +7664,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 81.28 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a34a6ff-e890-4982-9694-df68b1523abf")
-		(property "Reference" "#PWR07"
-			(at 81.28 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 81.28 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 81.28 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "236b8dda-a163-40aa-a491-40388ed36d73")
-		)
-		(instances
-			(project ""
-				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 266.7 97.79 90)
 		(unit 1)
@@ -7048,7 +7672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b7599a5-9744-4384-86b1-8ea86443ae2e")
-		(property "Reference" "R8"
+		(property "Reference" "Ra3"
 			(at 266.7 100.33 90)
 			(effects
 				(font
@@ -7064,7 +7688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 99.568 90)
 			(effects
 				(font
@@ -7100,7 +7724,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R8")
+					(reference "Ra3")
 					(unit 1)
 				)
 			)
@@ -7116,7 +7740,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c977cd1-5457-41ea-a246-fddbb885743c")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 162.56 190.4999 0)
 			(effects
 				(font
@@ -7134,7 +7758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 158.242 191.77 90)
 			(effects
 				(font
@@ -7170,7 +7794,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7411,7 +8035,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335aba2a-050e-40a6-932f-c78183dc902c")
-		(property "Reference" "R15"
+		(property "Reference" "Rb2"
 			(at 274.574 85.344 0)
 			(effects
 				(font
@@ -7429,7 +8053,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 86.36 90)
 			(effects
 				(font
@@ -7465,7 +8089,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R15")
+					(reference "Rb2")
 					(unit 1)
 				)
 			)
@@ -7480,7 +8104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34abdb06-366e-4fd9-8ba2-a3824364753f")
-		(property "Reference" "R14"
+		(property "Reference" "Rb1"
 			(at 274.574 70.104 0)
 			(effects
 				(font
@@ -7498,7 +8122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 71.12 90)
 			(effects
 				(font
@@ -7534,7 +8158,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R14")
+					(reference "Rb1")
 					(unit 1)
 				)
 			)
@@ -7549,7 +8173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "385c16e5-1e75-49f0-905f-91ba543dcb43")
-		(property "Reference" "R25"
+		(property "Reference" "Rc4"
 			(at 287.02 115.316 90)
 			(effects
 				(font
@@ -7565,7 +8189,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 114.808 90)
 			(effects
 				(font
@@ -7601,7 +8225,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R25")
+					(reference "Rc4")
 					(unit 1)
 				)
 			)
@@ -7616,7 +8240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b57c32c-122f-4a0a-ae12-1c7518a7174e")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 273.05 127 0)
 			(effects
 				(font
@@ -7666,7 +8290,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7681,7 +8305,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c88c603-9063-40df-9eba-289d182b9d34")
-		(property "Reference" "R6"
+		(property "Reference" "Ra1"
 			(at 266.7 69.85 90)
 			(effects
 				(font
@@ -7697,7 +8321,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 69.088 90)
 			(effects
 				(font
@@ -7733,7 +8357,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R6")
+					(reference "Ra1")
 					(unit 1)
 				)
 			)
@@ -7741,7 +8365,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NJM4580")
-		(at 325.12 72.39 0)
+		(at 325.12 132.08 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -7750,7 +8374,7 @@
 		(dnp no)
 		(uuid "434f2cfc-8a28-454f-9ee8-70bf7552d7bf")
 		(property "Reference" "U1"
-			(at 324.612 67.564 0)
+			(at 324.612 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7758,7 +8382,7 @@
 			)
 		)
 		(property "Value" "NJM4580"
-			(at 324.612 65.024 0)
+			(at 324.612 124.714 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +8390,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 325.12 72.39 0)
+			(at 325.12 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7775,7 +8399,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
-			(at 325.12 72.39 0)
+			(at 325.12 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7784,7 +8408,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
-			(at 325.12 72.39 0)
+			(at 325.12 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7995,7 +8619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c423cfe-53e6-4b3f-846e-391496f87631")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 163.83 179.0699 90)
 			(effects
 				(font
@@ -8049,7 +8673,73 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW1")
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 386.08 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e7e3d53-87a4-49c9-8eb6-b09e0c3edddb")
+		(property "Reference" "#PWR031"
+			(at 386.08 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 386.08 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 386.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 386.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 386.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd558ced-7399-4ba3-9127-51ed380a8b01")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8073,7 +8763,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 354.33 95.25 90)
 			(effects
 				(font
@@ -8081,7 +8771,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 358.14 99.3648 0)
 			(effects
 				(font
@@ -8148,7 +8838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 96.8248 0)
 			(effects
 				(font
@@ -8199,7 +8889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "611350be-c934-4c5f-8890-bbf9b388b2d2")
-		(property "Reference" "R23"
+		(property "Reference" "Rc2"
 			(at 287.02 84.836 90)
 			(effects
 				(font
@@ -8215,7 +8905,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 84.328 90)
 			(effects
 				(font
@@ -8251,7 +8941,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R23")
+					(reference "Rc2")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f1c6d9-2196-4f8b-bb5a-91b2f66c14e0")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 91.44 160.02 0)
 			(effects
 				(font
@@ -8317,7 +9007,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -8332,7 +9022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "649455e6-4c89-4037-857c-824bb7fc3c0d")
-		(property "Reference" "R28"
+		(property "Reference" "R7"
 			(at 287.02 161.036 90)
 			(effects
 				(font
@@ -8348,7 +9038,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 160.528 90)
 			(effects
 				(font
@@ -8384,7 +9074,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R28")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8400,7 +9090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65b38f1f-0d21-4b84-bd90-e5b55bbc21a6")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 177.8 201.93 0)
 			(effects
 				(font
@@ -8450,7 +9140,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8465,7 +9155,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "682a523e-9d40-4d5e-ac6a-70ff103551b2")
-		(property "Reference" "R27"
+		(property "Reference" "R6"
 			(at 287.02 145.796 90)
 			(effects
 				(font
@@ -8481,7 +9171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 145.288 90)
 			(effects
 				(font
@@ -8517,7 +9207,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R27")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8591,7 +9281,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NJM4580")
-		(at 370.84 76.2 0)
+		(at 347.98 158.75 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8600,7 +9290,7 @@
 		(fields_autoplaced yes)
 		(uuid "69748b49-88a1-4b4d-a412-4eed94a2e37d")
 		(property "Reference" "U1"
-			(at 369.57 74.9299 0)
+			(at 346.71 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8609,7 +9299,7 @@
 			)
 		)
 		(property "Value" "NJM4580"
-			(at 369.57 77.4699 0)
+			(at 346.71 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8618,7 +9308,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket"
-			(at 370.84 76.2 0)
+			(at 347.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +9317,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
-			(at 370.84 76.2 0)
+			(at 347.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8636,7 +9326,7 @@
 			)
 		)
 		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
-			(at 370.84 76.2 0)
+			(at 347.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +9376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69a7dedf-612c-476e-bf2b-8e5bd85ba762")
-		(property "Reference" "R33"
+		(property "Reference" "Rg1"
 			(at 341.63 98.044 90)
 			(effects
 				(font
@@ -8702,7 +9392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 341.63 102.108 90)
 			(effects
 				(font
@@ -8738,7 +9428,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R33")
+					(reference "Rg1")
 					(unit 1)
 				)
 			)
@@ -8769,7 +9459,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 142.5448 0)
 			(effects
 				(font
@@ -8820,7 +9510,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cfbf07d-99dd-433c-ae81-9de893929745")
-		(property "Reference" "R24"
+		(property "Reference" "Rc3"
 			(at 287.02 100.076 90)
 			(effects
 				(font
@@ -8836,7 +9526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 99.568 90)
 			(effects
 				(font
@@ -8872,7 +9562,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R24")
+					(reference "Rc3")
 					(unit 1)
 				)
 			)
@@ -8880,7 +9570,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 368.3 83.82 0)
+		(at 345.44 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8889,7 +9579,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d643625-d196-46df-acc9-c91c44b07704")
 		(property "Reference" "#PWR028"
-			(at 368.3 90.17 0)
+			(at 345.44 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +9588,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 368.3 88.9 0)
+			(at 345.44 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +9596,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 368.3 83.82 0)
+			(at 345.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8915,7 +9605,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 368.3 83.82 0)
+			(at 345.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8924,7 +9614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 368.3 83.82 0)
+			(at 345.44 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +9644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa967a3-190a-4e4d-8e92-7dcd89c9f7c3")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -9004,7 +9694,73 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR08")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7322ccbb-cb79-4fde-896c-37790b8cc2aa")
+		(property "Reference" "#PWR013"
+			(at 157.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de92c6e-d40a-4c16-be62-61d48a8b3f23")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9019,7 +9775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b1924f-3be5-4394-90e2-8d20790bf900")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 273.05 96.52 0)
 			(effects
 				(font
@@ -9069,7 +9825,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9084,7 +9840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79248e56-e215-4a4e-aeca-8659df580bdd")
-		(property "Reference" "R12"
+		(property "Reference" "Ra7"
 			(at 266.7 161.29 90)
 			(effects
 				(font
@@ -9100,7 +9856,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 160.528 90)
 			(effects
 				(font
@@ -9136,7 +9892,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R12")
+					(reference "Ra7")
 					(unit 1)
 				)
 			)
@@ -9151,7 +9907,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b727cd3-2731-41ae-94c4-348cb0f37c6e")
-		(property "Reference" "R16"
+		(property "Reference" "R4"
 			(at 274.574 100.584 0)
 			(effects
 				(font
@@ -9169,7 +9925,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 101.6 90)
 			(effects
 				(font
@@ -9205,7 +9961,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R16")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9301,7 +10057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ddf2444-64a2-49b6-9024-29f12194e968")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 120.65 187.96 0)
 			(effects
 				(font
@@ -9352,7 +10108,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9383,7 +10139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 81.5848 0)
 			(effects
 				(font
@@ -9434,7 +10190,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8178ff3a-8b19-4e7b-ad9e-4f3bba8461ec")
-		(property "Reference" "R1"
+		(property "Reference" "Rls1"
 			(at 56.134 201.93 0)
 			(effects
 				(font
@@ -9452,7 +10208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 52.832 203.2 90)
 			(effects
 				(font
@@ -9488,7 +10244,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R1")
+					(reference "Rls1")
 					(unit 1)
 				)
 			)
@@ -9821,7 +10577,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b89b9fb-6fc4-451b-91e8-d22940058b4d")
-		(property "Reference" "R21"
+		(property "Reference" "Rb7"
 			(at 274.574 176.784 0)
 			(effects
 				(font
@@ -9839,7 +10595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 177.8 90)
 			(effects
 				(font
@@ -9875,7 +10631,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R21")
+					(reference "Rb7")
 					(unit 1)
 				)
 			)
@@ -9891,7 +10647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c10bd7-5432-40e3-bd4d-9298d61f9696")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 194.31 201.93 0)
 			(effects
 				(font
@@ -9941,7 +10697,74 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR015")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 193.04 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7c54360-7cff-4509-b27e-7fd54ae5be46")
+		(property "Reference" "MixedSignalOut1"
+			(at 191.516 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 191.516 41.148 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "260453d0-f1f1-466f-92a2-603b56c78dc6")
+		)
+		(pin "1"
+			(uuid "c21c8e3c-ef73-4c58-8b61-7f159363ce5a")
+		)
+		(instances
+			(project "sound_remocon_v2"
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "MixedSignalOut1")
 					(unit 1)
 				)
 			)
@@ -9957,7 +10780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acfc07c8-3783-4f2b-9a19-cc40a8b11277")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 304.8 88.9 0)
 			(effects
 				(font
@@ -10007,7 +10830,75 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR025")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 147.32 46.99 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aee949a4-8de8-4b5d-9f78-f49269b783c2")
+		(property "Reference" "Power1"
+			(at 146.558 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 145.796 41.656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 147.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "330c6c2e-84d2-49ce-a275-31fb3630b6ff")
+		)
+		(pin "1"
+			(uuid "ed03a61e-b8e2-482b-9b92-4331eb5923dd")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "Power1")
 					(unit 1)
 				)
 			)
@@ -10023,7 +10914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af98b493-02de-4e35-a71d-bda5283d0d42")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 363.22 128.27 0)
 			(effects
 				(font
@@ -10073,7 +10964,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -10104,7 +10995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 112.0648 0)
 			(effects
 				(font
@@ -10141,6 +11032,72 @@
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 373.38 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3763c54-7e87-4174-b7e7-89c39749eb21")
+		(property "Reference" "#PWR030"
+			(at 373.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 373.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 373.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 373.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 373.38 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbdb0c73-91c9-4f8a-bf87-4e1759354cd8")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10264,7 +11221,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 157.7848 0)
 			(effects
 				(font
@@ -10315,7 +11272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4367771-c300-4913-a41c-279764afa396")
-		(property "Reference" "R9"
+		(property "Reference" "Ra4"
 			(at 266.7 115.57 90)
 			(effects
 				(font
@@ -10331,7 +11288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 114.808 90)
 			(effects
 				(font
@@ -10367,7 +11324,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R9")
+					(reference "Ra4")
 					(unit 1)
 				)
 			)
@@ -10398,7 +11355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 127.3048 0)
 			(effects
 				(font
@@ -10449,7 +11406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc0f0da7-f992-4975-9b85-7ad6ff7be1e3")
-		(property "Reference" "R31"
+		(property "Reference" "Re2"
 			(at 299.212 77.724 0)
 			(effects
 				(font
@@ -10467,7 +11424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 303.022 78.74 90)
 			(effects
 				(font
@@ -10503,7 +11460,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R31")
+					(reference "Re2")
 					(unit 1)
 				)
 			)
@@ -10518,7 +11475,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcc8cb7b-1871-413f-9132-59c1468fe01a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 273.05 187.96 0)
 			(effects
 				(font
@@ -10568,7 +11525,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10583,7 +11540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1c41517-d563-4f99-bdeb-87f828c12daa")
-		(property "Reference" "R30"
+		(property "Reference" "Re1"
 			(at 299.212 70.104 0)
 			(effects
 				(font
@@ -10601,7 +11558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 303.022 71.12 90)
 			(effects
 				(font
@@ -10637,7 +11594,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R30")
+					(reference "Re1")
 					(unit 1)
 				)
 			)
@@ -10652,7 +11609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c578cc55-a37f-4732-ad72-ce581fd45302")
-		(property "Reference" "R7"
+		(property "Reference" "Ra2"
 			(at 266.7 85.09 90)
 			(effects
 				(font
@@ -10668,7 +11625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 84.328 90)
 			(effects
 				(font
@@ -10704,7 +11661,77 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R7")
+					(reference "Ra2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 386.08 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c876db43-6e22-49ff-9c78-a1a79ce531c3")
+		(property "Reference" "Cp2"
+			(at 389.89 60.0709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50u"
+			(at 389.89 62.6109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
+			(at 387.0452 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 386.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 386.08 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f7b26e6-80e6-4370-980f-ae61de63a7aa")
+		)
+		(pin "2"
+			(uuid "2e0abf39-d98b-43a1-81eb-7b67b1eb2803")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "Cp2")
 					(unit 1)
 				)
 			)
@@ -10719,7 +11746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb46a439-eeb8-4380-ac1a-16cb3159d85a")
-		(property "Reference" "R19"
+		(property "Reference" "Rb5"
 			(at 274.574 146.304 0)
 			(effects
 				(font
@@ -10737,7 +11764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 147.32 90)
 			(effects
 				(font
@@ -10773,7 +11800,77 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R19")
+					(reference "Rb5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 373.38 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb79ec8b-1606-4e15-8dee-5e1f1c2216df")
+		(property "Reference" "Cp1"
+			(at 377.19 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 377.19 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
+			(at 374.3452 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 373.38 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb0b157-82d9-4b9c-a6f3-e3c3c33deea3")
+		)
+		(pin "2"
+			(uuid "48e35a7d-0611-4a71-a8d9-988d1a4775a6")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "Cp1")
 					(unit 1)
 				)
 			)
@@ -10788,7 +11885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbfab924-09be-4ce8-9b8c-641358ae868e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 273.05 172.72 0)
 			(effects
 				(font
@@ -10838,7 +11935,73 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR022")
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 157.48 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf337bd2-e2f8-4c40-9820-6d926ae8c759")
+		(property "Reference" "#PWR012"
+			(at 157.48 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 157.48 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 157.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45b7257d-4bb5-4ce1-a014-c333507bf1b3")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10853,7 +12016,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf53e426-5b88-46c1-82bb-2e1e05cb12f7")
-		(property "Reference" "R18"
+		(property "Reference" "Rb4"
 			(at 274.574 131.064 0)
 			(effects
 				(font
@@ -10871,7 +12034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 132.08 90)
 			(effects
 				(font
@@ -10907,7 +12070,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R18")
+					(reference "Rb4")
 					(unit 1)
 				)
 			)
@@ -10922,7 +12085,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5e721aa-80e1-4417-b8a7-089e298bc33c")
-		(property "Reference" "R13"
+		(property "Reference" "Ra8"
 			(at 266.7 176.53 90)
 			(effects
 				(font
@@ -10938,7 +12101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 175.768 90)
 			(effects
 				(font
@@ -10974,7 +12137,144 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R13")
+					(reference "Ra8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc2bc1bd-3ded-48d4-9bb0-cbfc5b90a7c7")
+		(property "Reference" "#PWR016"
+			(at 184.15 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffc12b34-4071-4294-bf7f-63b7c05a9596")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 38.1 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc8c7ae5-0664-4b6b-85f5-2f0c6266add1")
+		(property "Reference" "SW1"
+			(at 38.1 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 38.1 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 38.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 38.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e0a9627-ba76-4d67-b6ba-07768668ff2c")
+		)
+		(pin "3"
+			(uuid "0b80778d-5962-4b65-9307-7970ac34bc78")
+		)
+		(pin "1"
+			(uuid "f5c5bfef-716e-452d-87a2-c4babfdf1ae1")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -10989,7 +12289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd429321-77de-4219-bf45-a7602b90b745")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 273.05 81.28 0)
 			(effects
 				(font
@@ -11039,7 +12339,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11055,7 +12355,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dde0af36-abd7-4a6d-a963-19e12b6ea1e1")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 196.85 190.4999 0)
 			(effects
 				(font
@@ -11073,7 +12373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 192.532 191.77 90)
 			(effects
 				(font
@@ -11109,7 +12409,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -11124,7 +12424,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de9da18c-74f9-4b0d-9f72-766d6e9f9415")
-		(property "Reference" "R20"
+		(property "Reference" "Rb6"
 			(at 274.574 161.544 0)
 			(effects
 				(font
@@ -11142,7 +12442,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 162.56 90)
 			(effects
 				(font
@@ -11178,7 +12478,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R20")
+					(reference "Rb6")
 					(unit 1)
 				)
 			)
@@ -11193,7 +12493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df5ef6ee-5a0b-42c5-8805-e7f938423ab5")
-		(property "Reference" "R17"
+		(property "Reference" "Rb3"
 			(at 274.574 115.824 0)
 			(effects
 				(font
@@ -11211,7 +12511,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 274.828 116.84 90)
 			(effects
 				(font
@@ -11247,7 +12547,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R17")
+					(reference "Rb3")
 					(unit 1)
 				)
 			)
@@ -11262,7 +12562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0698f5b-4a5b-439a-94c2-4d515b71460e")
-		(property "Reference" "R11"
+		(property "Reference" "Ra6"
 			(at 266.7 146.05 90)
 			(effects
 				(font
@@ -11278,7 +12578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 266.7 145.288 90)
 			(effects
 				(font
@@ -11314,7 +12614,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R11")
+					(reference "Ra6")
 					(unit 1)
 				)
 			)
@@ -11330,7 +12630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5295885-f30f-443d-a491-502010d621c1")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 180.34 190.4999 0)
 			(effects
 				(font
@@ -11348,7 +12648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 176.022 191.77 90)
 			(effects
 				(font
@@ -11384,7 +12684,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -11399,7 +12699,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5332204-3095-4efb-9c7b-ce5d8dd4617d")
-		(property "Reference" "R34"
+		(property "Reference" "Rh1"
 			(at 360.934 107.95 90)
 			(effects
 				(font
@@ -11415,7 +12715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 364.998 107.95 90)
 			(effects
 				(font
@@ -11451,7 +12751,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R34")
+					(reference "Rh1")
 					(unit 1)
 				)
 			)
@@ -11466,7 +12766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec675658-46ae-47e5-9425-c9cc6002475f")
-		(property "Reference" "R29"
+		(property "Reference" "R8"
 			(at 287.02 176.276 90)
 			(effects
 				(font
@@ -11482,7 +12782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 287.02 175.768 90)
 			(effects
 				(font
@@ -11518,7 +12818,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R29")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11534,7 +12834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19499b2-5a16-4647-b4b0-767499265f51")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 181.61 179.0699 90)
 			(effects
 				(font
@@ -11588,7 +12888,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -11619,7 +12919,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 173.0248 0)
 			(effects
 				(font
@@ -11662,6 +12962,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 69.85 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87b80e0-f43e-435e-97ae-4d0610240421")
+		(property "Reference" "#FLG03"
+			(at 69.85 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9cdf157-1ae5-458b-890e-98b34ab26639")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 363.22 115.57 180)
 		(unit 1)
@@ -11670,7 +13036,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fdc2c185-1204-4855-bf56-f7d1d2e674d5")
-		(property "Reference" "R35"
+		(property "Reference" "Rh2"
 			(at 360.934 115.57 90)
 			(effects
 				(font
@@ -11686,7 +13052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 364.998 115.57 90)
 			(effects
 				(font
@@ -11722,7 +13088,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R35")
+					(reference "Rh2")
 					(unit 1)
 				)
 			)
@@ -11753,7 +13119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm"
 			(at 283.21 66.3448 0)
 			(effects
 				(font
