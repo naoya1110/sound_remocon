@@ -1049,6 +1049,189 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3365,6 +3548,12 @@
 		(uuid "4d1ec1c2-d18a-45be-9075-25f96ee26faa")
 	)
 	(junction
+		(at 49.53 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ea48680-d8ba-4556-92e3-f150eeec7ff5")
+	)
+	(junction
 		(at 55.88 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3545,6 +3734,12 @@
 		(uuid "d22c8569-70c0-42d2-b131-1703333f9be1")
 	)
 	(junction
+		(at 210.82 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9320d23-0517-4dbb-bfd5-f9c82b1889de")
+	)
+	(junction
 		(at 106.68 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3567,10 +3762,6 @@
 	(no_connect
 		(at 63.5 85.09)
 		(uuid "2f191224-9c7e-48ad-9b88-8c63184309bc")
-	)
-	(no_connect
-		(at 63.5 80.01)
-		(uuid "2fb0adcc-c12e-40da-b7d5-fdb4f3752242")
 	)
 	(no_connect
 		(at 63.5 59.69)
@@ -3966,6 +4157,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 21.59) (xy 60.96 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fab2b72-fd55-4ec7-aa1e-c2805396b776")
+	)
+	(wire
+		(pts
 			(xy 261.62 67.31) (xy 262.89 67.31)
 		)
 		(stroke
@@ -4266,6 +4467,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 186.69) (xy 215.9 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60eb3071-41db-4a87-8421-22f8fa3f8c83")
+	)
+	(wire
+		(pts
 			(xy 317.5 121.92) (xy 332.74 121.92)
 		)
 		(stroke
@@ -4446,6 +4657,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 186.69) (xy 210.82 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0889f5-e93f-4067-87c4-7360960decea")
+	)
+	(wire
+		(pts
 			(xy 304.8 58.42) (xy 304.8 67.31)
 		)
 		(stroke
@@ -4536,6 +4757,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 185.42) (xy 210.82 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcf456f-f65f-4f95-b4d2-5750634743ac")
+	)
+	(wire
+		(pts
 			(xy 270.51 173.99) (xy 273.05 173.99)
 		)
 		(stroke
@@ -4566,7 +4797,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 21.59) (xy 46.99 21.59)
+			(xy 43.18 21.59) (xy 49.53 21.59)
 		)
 		(stroke
 			(width 0)
@@ -5076,6 +5307,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 171.45) (xy 210.82 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bc5f68-e555-4bac-ba8f-114e661ea0a9")
+	)
+	(wire
+		(pts
 			(xy 261.62 113.03) (xy 262.89 113.03)
 		)
 		(stroke
@@ -5143,6 +5384,16 @@
 			(type default)
 		)
 		(uuid "fcd40e6d-395b-4b23-98fc-4c3558090a5e")
+	)
+	(wire
+		(pts
+			(xy 58.42 80.01) (xy 63.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce0d830-0aa7-4eb6-b69c-53d25884d0bc")
 	)
 	(wire
 		(pts
@@ -5505,6 +5756,28 @@
 		)
 	)
 	(global_label "3V3"
+		(shape input)
+		(at 210.82 171.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b5a4f76-8a9d-40ea-90be-15561f9fa0a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 164.9572 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
 		(shape output)
 		(at 91.44 41.91 90)
 		(fields_autoplaced yes)
@@ -5528,7 +5801,7 @@
 	)
 	(global_label "Power5V"
 		(shape output)
-		(at 46.99 21.59 0)
+		(at 60.96 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5538,7 +5811,7 @@
 		)
 		(uuid "2e2526df-ff26-4fe3-b596-f6ab2e3bc5e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.8976 21.59 0)
+			(at 71.8676 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,6 +6239,28 @@
 			)
 		)
 	)
+	(global_label "SW3"
+		(shape input)
+		(at 58.42 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89b1c7ab-87c1-4f99-9ae0-272387ec70fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.5644 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Power5V"
 		(shape input)
 		(at 304.8 54.61 90)
@@ -6045,6 +6340,28 @@
 		(uuid "9f9492cd-f704-4d8e-9cdb-aeced341176b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.28 29.7324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SW3"
+		(shape input)
+		(at 215.9 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a29b1488-156d-4801-a4f3-616a7736cf22")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.7556 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0808bc27-468b-4626-b946-4e4593835462")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 99.06 213.36 0)
 			(effects
 				(font
@@ -6555,7 +6872,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6571,7 +6888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0940cbe5-d928-4e52-b4f2-79aa700081e0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 160.02 201.93 0)
 			(effects
 				(font
@@ -6621,7 +6938,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6703,7 +7020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a202817-3011-4a6d-b0a1-407f53cd37e3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 345.44 154.94 0)
 			(effects
 				(font
@@ -6753,7 +7070,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6848,7 +7165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d5b3985-3ce1-4a68-8191-4c56ed60717e")
-		(property "Reference" "R5"
+		(property "Reference" "Rc5"
 			(at 287.02 130.556 90)
 			(effects
 				(font
@@ -6900,7 +7217,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R5")
+					(reference "Rc5")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c621386-12c0-4a09-b7ff-c07634d8ce13")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 273.05 111.76 0)
 			(effects
 				(font
@@ -7238,7 +7555,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7254,7 +7571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1de992d2-423f-4c88-90e3-4813df7aeb18")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 106.68 252.73 0)
 			(effects
 				(font
@@ -7305,7 +7622,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ecacb7d-ef61-45ab-b27b-b67796ba4f97")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 273.05 142.24 0)
 			(effects
 				(font
@@ -7370,7 +7687,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7385,7 +7702,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f0d14cb-83aa-4bbf-95b2-c8d87b992040")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 273.05 157.48 0)
 			(effects
 				(font
@@ -7435,7 +7752,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7451,7 +7768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258385f8-ef4d-4ce9-9f14-ef362fad3e95")
-		(property "Reference" "SW4"
+		(property "Reference" "SW3"
 			(at 198.12 179.0699 90)
 			(effects
 				(font
@@ -7505,7 +7822,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW4")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -7731,6 +8048,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c54e6a9-081f-4929-baff-91ea0600ec44")
+		(property "Reference" "#PWR019"
+			(at 210.82 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38448701-059b-4f20-8fa8-bf4ee26d4394")
+		)
+		(instances
+			(project "sound_remocon_v2"
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 160.02 191.77 0)
 		(unit 1)
@@ -7810,7 +8193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2def952f-d666-4a1f-81be-120e1932ccdf")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 63.5 252.73 0)
 			(effects
 				(font
@@ -7861,7 +8244,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7877,7 +8260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f27e8f7-7bc4-4f26-b2fa-4ff5af590be9")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR05"
 			(at 54.61 213.36 0)
 			(effects
 				(font
@@ -7927,7 +8310,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR04")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8240,7 +8623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b57c32c-122f-4a0a-ae12-1c7518a7174e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 273.05 127 0)
 			(effects
 				(font
@@ -8290,7 +8673,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8619,7 +9002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c423cfe-53e6-4b3f-846e-391496f87631")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 163.83 179.0699 90)
 			(effects
 				(font
@@ -8673,7 +9056,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -8689,7 +9072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e7e3d53-87a4-49c9-8eb6-b09e0c3edddb")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 386.08 72.39 0)
 			(effects
 				(font
@@ -8739,7 +9122,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8957,7 +9340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f1c6d9-2196-4f8b-bb5a-91b2f66c14e0")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 91.44 160.02 0)
 			(effects
 				(font
@@ -9007,7 +9390,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9022,7 +9405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "649455e6-4c89-4037-857c-824bb7fc3c0d")
-		(property "Reference" "R7"
+		(property "Reference" "Rc7"
 			(at 287.02 161.036 90)
 			(effects
 				(font
@@ -9074,7 +9457,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R7")
+					(reference "Rc7")
 					(unit 1)
 				)
 			)
@@ -9090,7 +9473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65b38f1f-0d21-4b84-bd90-e5b55bbc21a6")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 177.8 201.93 0)
 			(effects
 				(font
@@ -9140,7 +9523,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9155,7 +9538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "682a523e-9d40-4d5e-ac6a-70ff103551b2")
-		(property "Reference" "R6"
+		(property "Reference" "Rc6"
 			(at 287.02 145.796 90)
 			(effects
 				(font
@@ -9207,7 +9590,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R6")
+					(reference "Rc6")
 					(unit 1)
 				)
 			)
@@ -9578,7 +9961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d643625-d196-46df-acc9-c91c44b07704")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 345.44 172.72 0)
 			(effects
 				(font
@@ -9628,7 +10011,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9644,7 +10027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fa967a3-190a-4e4d-8e92-7dcd89c9f7c3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR08"
 			(at 86.36 127 0)
 			(effects
 				(font
@@ -9694,7 +10077,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR07")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9710,7 +10093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7322ccbb-cb79-4fde-896c-37790b8cc2aa")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -9760,7 +10143,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9775,7 +10158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b1924f-3be5-4394-90e2-8d20790bf900")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 273.05 96.52 0)
 			(effects
 				(font
@@ -9825,7 +10208,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9907,7 +10290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7b727cd3-2731-41ae-94c4-348cb0f37c6e")
-		(property "Reference" "R4"
+		(property "Reference" "Rb3"
 			(at 274.574 100.584 0)
 			(effects
 				(font
@@ -9961,7 +10344,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R4")
+					(reference "Rb3")
 					(unit 1)
 				)
 			)
@@ -10057,7 +10440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ddf2444-64a2-49b6-9024-29f12194e968")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 120.65 187.96 0)
 			(effects
 				(font
@@ -10108,7 +10491,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10176,6 +10559,85 @@
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 49.53 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f7fe78b-9d9b-4c19-a99b-d2200de24c2f")
+		(property "Reference" "D1"
+			(at 53.34 25.7174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 53.34 28.2574 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "448d1728-df60-4253-b5bb-54bc2ebd1b80")
+		)
+		(pin "2"
+			(uuid "244435be-f0c3-4da6-8304-298196f2ecb1")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10260,7 +10722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86bf2c3e-b65d-4346-bb8a-da5e646b7622")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 76.2 187.96 0)
 			(effects
 				(font
@@ -10311,7 +10773,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10577,7 +11039,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b89b9fb-6fc4-451b-91e8-d22940058b4d")
-		(property "Reference" "Rb7"
+		(property "Reference" "Rb8"
 			(at 274.574 176.784 0)
 			(effects
 				(font
@@ -10631,7 +11093,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "Rb7")
+					(reference "Rb8")
 					(unit 1)
 				)
 			)
@@ -10647,7 +11109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2c10bd7-5432-40e3-bd4d-9298d61f9696")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 194.31 201.93 0)
 			(effects
 				(font
@@ -10697,7 +11159,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10780,7 +11242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acfc07c8-3783-4f2b-9a19-cc40a8b11277")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 304.8 88.9 0)
 			(effects
 				(font
@@ -10830,7 +11292,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -10914,7 +11376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af98b493-02de-4e35-a71d-bda5283d0d42")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 363.22 128.27 0)
 			(effects
 				(font
@@ -10964,7 +11426,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11047,7 +11509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3763c54-7e87-4174-b7e7-89c39749eb21")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 373.38 72.39 0)
 			(effects
 				(font
@@ -11097,7 +11559,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11398,6 +11860,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baaf1f37-c651-470e-8ae1-334e0b8369be")
+		(property "Reference" "#PWR04"
+			(at 49.53 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "943b1dd2-bc47-4200-9274-ffacd9124d75")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 304.8 78.74 0)
 		(unit 1)
@@ -11475,7 +12003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcc8cb7b-1871-413f-9132-59c1468fe01a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 273.05 187.96 0)
 			(effects
 				(font
@@ -11525,7 +12053,77 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR025")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 210.82 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c186bc4b-e216-4bb8-91b7-0626f73b03d7")
+		(property "Reference" "R4"
+			(at 213.36 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 213.36 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 209.042 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 210.82 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fc9bc40-288a-4c4a-92fc-6a1198ef063d")
+		)
+		(pin "2"
+			(uuid "374e5811-0678-4cee-81da-26c676251f39")
+		)
+		(instances
+			(project "sound_remocon_v2"
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11738,6 +12336,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 210.82 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c94dd201-f728-488c-ae8f-cc5824a374c1")
+		(property "Reference" "SW4"
+			(at 214.63 179.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 214.63 181.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H7.3mm"
+			(at 215.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 210.82 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9bb254ac-3d59-4fa9-aff8-d6c22b1156ec")
+		)
+		(pin "1"
+			(uuid "ee67ef96-81b2-41bb-b20f-ddf09ee7583f")
+		)
+		(instances
+			(project "sound_remocon_v2"
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 273.05 147.32 180)
 		(unit 1)
@@ -11746,7 +12414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb46a439-eeb8-4380-ac1a-16cb3159d85a")
-		(property "Reference" "Rb5"
+		(property "Reference" "Rb6"
 			(at 274.574 146.304 0)
 			(effects
 				(font
@@ -11800,7 +12468,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "Rb5")
+					(reference "Rb6")
 					(unit 1)
 				)
 			)
@@ -11885,7 +12553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbfab924-09be-4ce8-9b8c-641358ae868e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 273.05 172.72 0)
 			(effects
 				(font
@@ -11935,7 +12603,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11951,7 +12619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf337bd2-e2f8-4c40-9820-6d926ae8c759")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 157.48 48.26 0)
 			(effects
 				(font
@@ -12001,7 +12669,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12016,7 +12684,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf53e426-5b88-46c1-82bb-2e1e05cb12f7")
-		(property "Reference" "Rb4"
+		(property "Reference" "Rb5"
 			(at 274.574 131.064 0)
 			(effects
 				(font
@@ -12070,7 +12738,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "Rb4")
+					(reference "Rb5")
 					(unit 1)
 				)
 			)
@@ -12153,7 +12821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc2bc1bd-3ded-48d4-9bb0-cbfc5b90a7c7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 184.15 53.34 0)
 			(effects
 				(font
@@ -12203,7 +12871,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12219,7 +12887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8c7ae5-0664-4b6b-85f5-2f0c6266add1")
-		(property "Reference" "SW1"
+		(property "Reference" "SW_PWR1"
 			(at 38.1 15.24 0)
 			(effects
 				(font
@@ -12274,7 +12942,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW1")
+					(reference "SW_PWR1")
 					(unit 1)
 				)
 			)
@@ -12289,7 +12957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd429321-77de-4219-bf45-a7602b90b745")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 273.05 81.28 0)
 			(effects
 				(font
@@ -12339,7 +13007,7 @@
 		(instances
 			(project ""
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -12424,7 +13092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de9da18c-74f9-4b0d-9f72-766d6e9f9415")
-		(property "Reference" "Rb6"
+		(property "Reference" "Rb7"
 			(at 274.574 161.544 0)
 			(effects
 				(font
@@ -12478,7 +13146,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "Rb6")
+					(reference "Rb7")
 					(unit 1)
 				)
 			)
@@ -12493,7 +13161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df5ef6ee-5a0b-42c5-8805-e7f938423ab5")
-		(property "Reference" "Rb3"
+		(property "Reference" "Rb4"
 			(at 274.574 115.824 0)
 			(effects
 				(font
@@ -12547,7 +13215,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "Rb3")
+					(reference "Rb4")
 					(unit 1)
 				)
 			)
@@ -12766,7 +13434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec675658-46ae-47e5-9425-c9cc6002475f")
-		(property "Reference" "R8"
+		(property "Reference" "Rc8"
 			(at 287.02 176.276 90)
 			(effects
 				(font
@@ -12818,7 +13486,77 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "R8")
+					(reference "Rc8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0cdaacf-2e74-4790-b2e0-f36fd9ff9629")
+		(property "Reference" "Rled1"
+			(at 52.07 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 52.07 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 47.752 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9660afb3-b182-4a03-910c-7d50bff8fa59")
+		)
+		(pin "2"
+			(uuid "262ece2b-172a-4d2e-9ae2-ee58d9db9e45")
+		)
+		(instances
+			(project ""
+				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
+					(reference "Rled1")
 					(unit 1)
 				)
 			)
@@ -12834,7 +13572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f19499b2-5a16-4647-b4b0-767499265f51")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 181.61 179.0699 90)
 			(effects
 				(font
@@ -12888,7 +13626,7 @@
 		(instances
 			(project "sound_remocon_v2"
 				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
