@@ -3476,6 +3476,12 @@
 		(uuid "01cc45da-dde9-4c82-ba0f-be17aee8cf46")
 	)
 	(junction
+		(at 273.05 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02d2817e-4abb-44c4-b299-d608e302eb0c")
+	)
+	(junction
 		(at 60.96 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3506,10 +3512,16 @@
 		(uuid "25d2ba8b-4131-4c44-8d17-2745736c348a")
 	)
 	(junction
-		(at 273.05 113.03)
+		(at 273.05 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c88b20d-734f-4d13-a4e9-614500b0397a")
+		(uuid "2a2a76a4-01ce-45f3-b1c6-e5d13001a9ac")
+	)
+	(junction
+		(at 273.05 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "376faab4-4d10-4528-b75e-5bc90f6fc37a")
 	)
 	(junction
 		(at 104.14 232.41)
@@ -3530,12 +3542,6 @@
 		(uuid "42032c25-f5c1-49fe-9e77-06250bbb0afb")
 	)
 	(junction
-		(at 273.05 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "44a3d6d0-4459-4879-8de4-af396b7aaed5")
-	)
-	(junction
 		(at 335.28 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3552,6 +3558,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ea48680-d8ba-4556-92e3-f150eeec7ff5")
+	)
+	(junction
+		(at 273.05 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4eed15db-cb78-4ae3-93b0-0eebfc0d1a48")
 	)
 	(junction
 		(at 55.88 237.49)
@@ -3584,6 +3596,18 @@
 		(uuid "61a9ce5b-0991-4d5d-af6d-550f27f8803a")
 	)
 	(junction
+		(at 273.05 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6564e077-ec99-4bfe-8b19-3dd95ef2dfe8")
+	)
+	(junction
+		(at 273.05 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675d4045-3fd4-4d5a-89a0-03f563bf5692")
+	)
+	(junction
 		(at 293.37 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3596,12 +3620,6 @@
 		(uuid "73d44f8f-3588-4678-a80e-d8654a0accfc")
 	)
 	(junction
-		(at 273.05 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7447c7ff-426a-45c4-81f2-d2c172864835")
-	)
-	(junction
 		(at 99.06 199.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3612,6 +3630,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "762f6012-9518-4cf8-a6ca-631702c45e65")
+	)
+	(junction
+		(at 273.05 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b8155c-2c93-46bc-b563-d584352d4aff")
 	)
 	(junction
 		(at 99.06 237.49)
@@ -3650,18 +3674,6 @@
 		(uuid "86ef421a-12c2-412c-9620-eefe56abecb7")
 	)
 	(junction
-		(at 273.05 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89fb2859-dbc5-4d06-8b70-dde2dce8aca4")
-	)
-	(junction
-		(at 273.05 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "953fe9dd-37b1-472c-8f92-e3d03fdca6f6")
-	)
-	(junction
 		(at 304.8 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3672,12 +3684,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b19657b0-f30b-46e9-905a-4a314207fcf5")
-	)
-	(junction
-		(at 273.05 173.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b20c3fe3-1d9c-422a-8af0-49db32d83015")
 	)
 	(junction
 		(at 363.22 111.76)
@@ -3698,12 +3704,6 @@
 		(uuid "bf3a4da2-39ee-4bca-a983-259f08386d1a")
 	)
 	(junction
-		(at 273.05 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0161b82-1a3f-4590-be40-2534d7ab40c2")
-	)
-	(junction
 		(at 104.14 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3722,16 +3722,16 @@
 		(uuid "c72057ae-32e0-4173-9ea6-50c053727a7f")
 	)
 	(junction
-		(at 273.05 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d17f7418-f911-47ee-a3d4-58db47c65d8f")
-	)
-	(junction
 		(at 60.96 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d22c8569-70c0-42d2-b131-1703333f9be1")
+	)
+	(junction
+		(at 273.05 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d949ac94-67cd-45d9-baa6-8eb3006fe621")
 	)
 	(junction
 		(at 210.82 186.69)
@@ -3897,6 +3897,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 158.75) (xy 275.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050c04b1-6b30-4290-86db-ead9339a0f73")
+	)
+	(wire
+		(pts
 			(xy 49.53 234.95) (xy 58.42 234.95)
 		)
 		(stroke
@@ -3924,6 +3934,16 @@
 			(type default)
 		)
 		(uuid "0801fd39-d90d-497f-8bf4-876c5e9aa4a1")
+	)
+	(wire
+		(pts
+			(xy 273.05 97.79) (xy 275.59 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08957ed4-f2e3-4418-b71b-f6302156f230")
 	)
 	(wire
 		(pts
@@ -4007,16 +4027,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 97.79) (xy 275.59 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12acfae0-c643-4ff3-aeca-2674808acad6")
-	)
-	(wire
-		(pts
 			(xy 60.96 232.41) (xy 64.77 232.41)
 		)
 		(stroke
@@ -4084,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "2647254f-ad29-42cf-9a77-a3561e5e5295")
-	)
-	(wire
-		(pts
-			(xy 273.05 113.03) (xy 275.59 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27073b00-e2aa-45cb-98bb-7f750eaf7b57")
 	)
 	(wire
 		(pts
@@ -4227,16 +4227,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 82.55) (xy 275.59 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "369ae837-df4a-41ca-8004-1c850b5cd5e6")
-	)
-	(wire
-		(pts
 			(xy 363.22 120.65) (xy 363.22 121.92)
 		)
 		(stroke
@@ -4314,6 +4304,16 @@
 			(type default)
 		)
 		(uuid "3ddd9410-19d9-4eec-b326-f1237aa41556")
+	)
+	(wire
+		(pts
+			(xy 273.05 143.51) (xy 275.59 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f782895-ff90-40c1-a0fa-bbe1e81545e8")
 	)
 	(wire
 		(pts
@@ -4447,6 +4447,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 67.31) (xy 275.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d42b342-cbce-44d7-9961-cb89684d3292")
+	)
+	(wire
+		(pts
 			(xy 44.45 199.39) (xy 49.53 199.39)
 		)
 		(stroke
@@ -4577,16 +4587,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 128.27) (xy 275.59 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8da74c-6ba7-440e-b645-b3dee86d72f4")
-	)
-	(wire
-		(pts
 			(xy 308.61 74.93) (xy 308.61 102.87)
 		)
 		(stroke
@@ -4614,16 +4614,6 @@
 			(type default)
 		)
 		(uuid "714050f3-c6ce-4b71-b190-86bd31447b08")
-	)
-	(wire
-		(pts
-			(xy 273.05 173.99) (xy 275.59 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7320dfe5-3275-4f23-b867-b49737307b95")
 	)
 	(wire
 		(pts
@@ -4917,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 82.55) (xy 275.59 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7758902-60d5-4743-b370-dafbbe46f2e7")
+	)
+	(wire
+		(pts
 			(xy 270.51 67.31) (xy 273.05 67.31)
 		)
 		(stroke
@@ -5107,16 +5107,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 158.75) (xy 275.59 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be2605d8-bdd9-483b-b433-fcd43ad11f1e")
-	)
-	(wire
-		(pts
 			(xy 270.51 158.75) (xy 273.05 158.75)
 		)
 		(stroke
@@ -5227,16 +5217,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 143.51) (xy 275.59 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d498bc46-4195-48b1-846a-f16d3844b580")
-	)
-	(wire
-		(pts
 			(xy 270.51 128.27) (xy 273.05 128.27)
 		)
 		(stroke
@@ -5277,16 +5257,6 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 67.31) (xy 275.59 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd9fc5c3-778e-4514-a6e2-a980f7353661")
-	)
-	(wire
-		(pts
 			(xy 58.42 100.33) (xy 63.5 100.33)
 		)
 		(stroke
@@ -5304,6 +5274,26 @@
 			(type default)
 		)
 		(uuid "de898143-b342-4f7c-9a5e-8d877b46915d")
+	)
+	(wire
+		(pts
+			(xy 273.05 128.27) (xy 275.59 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0217759-ece9-4aa7-a529-d28645ee49c0")
+	)
+	(wire
+		(pts
+			(xy 273.05 173.99) (xy 275.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b43cd7-eab9-475d-9ddd-f2022244d24b")
 	)
 	(wire
 		(pts
@@ -5374,6 +5364,16 @@
 			(type default)
 		)
 		(uuid "f40b7d5c-7d07-42ae-a9fe-473ca5c65b73")
+	)
+	(wire
+		(pts
+			(xy 273.05 113.03) (xy 275.59 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ac07fc-91bb-447e-ae04-fc75aeaf057a")
 	)
 	(wire
 		(pts
@@ -6613,6 +6613,28 @@
 			)
 		)
 	)
+	(global_label "Power5V"
+		(shape input)
+		(at 345.44 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e456e07c-c88c-49a3-a2cf-1f26959e1360")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 345.44 140.2224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Signal2"
 		(shape input)
 		(at 261.62 82.55 180)
@@ -6770,7 +6792,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 325.12 89.408 90)
 			(effects
 				(font
@@ -7011,72 +7033,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 345.44 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a202817-3011-4a6d-b0a1-407f53cd37e3")
-		(property "Reference" "#PWR029"
-			(at 345.44 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 345.44 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 345.44 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ccf3a0a-fa36-4d97-be91-590ca62f9272")
-		)
-		(instances
-			(project ""
-				(path "/187504ff-6991-4c48-9818-0098f6269e5c"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 87.63 234.95 0)
 		(unit 1)
@@ -7181,7 +7137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 130.048 90)
 			(effects
 				(font
@@ -7250,7 +7206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 97.282 203.2 90)
 			(effects
 				(font
@@ -7317,7 +7273,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 69.088 90)
 			(effects
 				(font
@@ -7384,7 +7340,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 130.048 90)
 			(effects
 				(font
@@ -8005,7 +7961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 99.568 90)
 			(effects
 				(font
@@ -8141,7 +8097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 158.242 191.77 90)
 			(effects
 				(font
@@ -8411,7 +8367,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 86.36 180)
+		(at 273.05 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8419,7 +8375,7 @@
 		(dnp no)
 		(uuid "335aba2a-050e-40a6-932f-c78183dc902c")
 		(property "Reference" "Rb2"
-			(at 274.574 85.344 0)
+			(at 271.526 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8384,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 87.63 0)
+			(at 271.526 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8436,8 +8392,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 86.36 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8436,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 71.12 180)
+		(at 273.05 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8488,7 +8444,7 @@
 		(dnp no)
 		(uuid "34abdb06-366e-4fd9-8ba2-a3824364753f")
 		(property "Reference" "Rb1"
-			(at 274.574 70.104 0)
+			(at 271.526 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8497,7 +8453,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 72.39 0)
+			(at 271.526 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8505,8 +8461,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 71.12 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8572,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 114.808 90)
 			(effects
 				(font
@@ -8704,7 +8660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 69.088 90)
 			(effects
 				(font
@@ -9288,7 +9244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 84.328 90)
 			(effects
 				(font
@@ -9421,7 +9377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 160.528 90)
 			(effects
 				(font
@@ -9554,7 +9510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 145.288 90)
 			(effects
 				(font
@@ -9775,7 +9731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 341.63 102.108 90)
 			(effects
 				(font
@@ -9909,7 +9865,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 99.568 90)
 			(effects
 				(font
@@ -10239,7 +10195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 160.528 90)
 			(effects
 				(font
@@ -10283,7 +10239,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 101.6 180)
+		(at 273.05 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10291,7 +10247,7 @@
 		(dnp no)
 		(uuid "7b727cd3-2731-41ae-94c4-348cb0f37c6e")
 		(property "Reference" "Rb3"
-			(at 274.574 100.584 0)
+			(at 271.526 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10300,7 +10256,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 102.87 0)
+			(at 271.526 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,8 +10264,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 101.6 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +10626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 52.832 203.2 90)
 			(effects
 				(font
@@ -11032,7 +10988,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 177.8 180)
+		(at 273.05 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11040,7 +10996,7 @@
 		(dnp no)
 		(uuid "9b89b9fb-6fc4-451b-91e8-d22940058b4d")
 		(property "Reference" "Rb8"
-			(at 274.574 176.784 0)
+			(at 271.526 178.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11049,7 +11005,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 179.07 0)
+			(at 271.526 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,8 +11013,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 177.8 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11750,7 +11706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 114.808 90)
 			(effects
 				(font
@@ -11952,7 +11908,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 303.022 78.74 90)
 			(effects
 				(font
@@ -12087,7 +12043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 209.042 191.77 90)
 			(effects
 				(font
@@ -12156,7 +12112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 303.022 71.12 90)
 			(effects
 				(font
@@ -12223,7 +12179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 84.328 90)
 			(effects
 				(font
@@ -12407,7 +12363,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 147.32 180)
+		(at 273.05 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12415,7 +12371,7 @@
 		(dnp no)
 		(uuid "cb46a439-eeb8-4380-ac1a-16cb3159d85a")
 		(property "Reference" "Rb6"
-			(at 274.574 146.304 0)
+			(at 271.526 148.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12424,7 +12380,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 148.59 0)
+			(at 271.526 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,8 +12388,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 147.32 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12677,7 +12633,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 132.08 180)
+		(at 273.05 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12685,7 +12641,7 @@
 		(dnp no)
 		(uuid "cf53e426-5b88-46c1-82bb-2e1e05cb12f7")
 		(property "Reference" "Rb5"
-			(at 274.574 131.064 0)
+			(at 271.526 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12694,7 +12650,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 133.35 0)
+			(at 271.526 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12702,8 +12658,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 132.08 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12769,7 +12725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 175.768 90)
 			(effects
 				(font
@@ -13041,7 +12997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 192.532 191.77 90)
 			(effects
 				(font
@@ -13085,7 +13041,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 162.56 180)
+		(at 273.05 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13093,7 +13049,7 @@
 		(dnp no)
 		(uuid "de9da18c-74f9-4b0d-9f72-766d6e9f9415")
 		(property "Reference" "Rb7"
-			(at 274.574 161.544 0)
+			(at 271.526 163.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13102,7 +13058,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 163.83 0)
+			(at 271.526 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13110,8 +13066,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 162.56 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13154,7 +13110,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 273.05 116.84 180)
+		(at 273.05 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13162,7 +13118,7 @@
 		(dnp no)
 		(uuid "df5ef6ee-5a0b-42c5-8805-e7f938423ab5")
 		(property "Reference" "Rb4"
-			(at 274.574 115.824 0)
+			(at 271.526 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13171,7 +13127,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 274.574 118.11 0)
+			(at 271.526 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13179,8 +13135,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 274.828 116.84 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 271.272 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13246,7 +13202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 266.7 145.288 90)
 			(effects
 				(font
@@ -13316,7 +13272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 176.022 191.77 90)
 			(effects
 				(font
@@ -13383,7 +13339,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 364.998 107.95 90)
 			(effects
 				(font
@@ -13450,7 +13406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 287.02 175.768 90)
 			(effects
 				(font
@@ -13520,7 +13476,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 47.752 33.02 90)
 			(effects
 				(font
@@ -13790,7 +13746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 364.998 115.57 90)
 			(effects
 				(font
