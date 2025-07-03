@@ -5865,7 +5865,7 @@
 			)
 		)
 	)
-	(global_label "SW3"
+	(global_label "SW2"
 		(shape input)
 		(at 58.42 77.47 180)
 		(fields_autoplaced yes)
@@ -6239,7 +6239,7 @@
 			)
 		)
 	)
-	(global_label "SW4"
+	(global_label "SW1"
 		(shape input)
 		(at 58.42 80.01 180)
 		(fields_autoplaced yes)
@@ -6437,7 +6437,7 @@
 			)
 		)
 	)
-	(global_label "SW1"
+	(global_label "SW4"
 		(shape input)
 		(at 58.42 72.39 180)
 		(fields_autoplaced yes)
@@ -6481,7 +6481,7 @@
 			)
 		)
 	)
-	(global_label "SW2"
+	(global_label "SW3"
 		(shape input)
 		(at 58.42 74.93 180)
 		(fields_autoplaced yes)
