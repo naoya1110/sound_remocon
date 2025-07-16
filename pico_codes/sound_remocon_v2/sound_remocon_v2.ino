@@ -2,15 +2,15 @@
 //
 // INPUT                          |   OUTPUT
 // -------------------------------|--------------------------------------
-// SW1 ----------------> GPIO5 ---|-- GPIO8 ------> Signal1 ----- 700Hz
-// SW2 ----------------> GPIO4 ---|-- GPIO9 ------> Signal2 ----- 750Hz
-// SW3 ----------------> GPIO3 ---|-- GPIO10 -----> Signal3 ----- 800Hz
-// SW4 ----------------> GPIO2 ---|-- GPIO11 -----> Signal4 ----- 850Hz
-// LEFT STICK SW ------> GPIO21 --|-- GPIO12 -----> Signal5 ----- 900Hz
-// RIGHT STICK SW -----> GPIO22 --|-- GPIO13 -----> Signal6 ----- 950Hz
-// LEFT STICK X -------> ADC0 ----|-- None -------- None
-// LEFT STICK Y -------> ADC1 ----|-- GPIO14 -----> Signal7 ----- 1010-1090Hz
-// RIGHT STICK Y ------> ADC2 ----|-- GPIO15 -----> Signal8 ----- 1110-1190Hz
+// SW1 ----------------> GPIO5 ---|-- GPIO8 ------> Signal1 ----- 800Hz
+// SW2 ----------------> GPIO4 ---|-- GPIO9 ------> Signal2 ----- 850Hz
+// SW3 ----------------> GPIO3 ---|-- GPIO10 -----> Signal3 ----- 900Hz
+// SW4 ----------------> GPIO2 ---|-- GPIO11 -----> Signal4 ----- 950Hz
+// LEFT STICK SW ------> GPIO21 --|-- GPIO12 -----> Signal5 ----- 1000Hz
+// RIGHT STICK SW -----> GPIO22 --|-- GPIO13 -----> Signal6 ----- 1050Hz
+// LEFT STICK X -------> ADC0 ----|-- GPIO14 -----> Signal7 ----- 510-550-590Hz
+// LEFT STICK Y -------> ADC1 ----|-- GPIO15 -----> Signal8 ----- 660-700-740Hz
+// RIGHT STICK Y ------> ADC2 ----|-- None -------- None
 // -------------------------------|--------------------------------------
 
 
@@ -47,14 +47,14 @@
 #define PIN_SIGNAL8 15
 
 // 信号の基本周波数
-#define FREQ_SIGNAL1 700
-#define FREQ_SIGNAL2 750
-#define FREQ_SIGNAL3 800
-#define FREQ_SIGNAL4 850
-#define FREQ_SIGNAL5 900
-#define FREQ_SIGNAL6 950
-#define FREQ_SIGNAL7 1050
-#define FREQ_SIGNAL8 1150
+#define FREQ_SIGNAL1 800
+#define FREQ_SIGNAL2 850
+#define FREQ_SIGNAL3 900
+#define FREQ_SIGNAL4 950
+#define FREQ_SIGNAL5 1000
+#define FREQ_SIGNAL6 1050
+#define FREQ_SIGNAL7 550
+#define FREQ_SIGNAL8 700
 
 #define FREQ_STEP 10
 
@@ -92,8 +92,8 @@ void setup() {
   pinMode(PIN_SIGNAL4, OUTPUT);  // SW4
   pinMode(PIN_SIGNAL5, OUTPUT);  // Left Stick SW
   pinMode(PIN_SIGNAL6, OUTPUT);  // Right Stick SW
-  pinMode(PIN_SIGNAL7, OUTPUT);  // Left Stick Y
-  pinMode(PIN_SIGNAL8, OUTPUT);  // Right Stick Y
+  pinMode(PIN_SIGNAL7, OUTPUT);  // Left Stick X
+  pinMode(PIN_SIGNAL8, OUTPUT);  // Left Stick Y
 
   tone(PIN_SIGNAL7, FREQ_SIGNAL7);
   tone(PIN_SIGNAL8, FREQ_SIGNAL8);
@@ -174,15 +174,15 @@ void loop() {
     }
   }
 
-  // LeftStickYValue/Signal7の信号制御
-  if (mappedLeftStickYValue != oldMappedLeftStickYValue){
-    int f = FREQ_SIGNAL7 + mappedLeftStickYValue * FREQ_STEP;
+  // LeftStickXValue/Signal7の信号制御
+  if (mappedLeftStickXValue != oldMappedLeftStickXValue){
+    int f = FREQ_SIGNAL7 + mappedLeftStickXValue * FREQ_STEP;
     tone(PIN_SIGNAL7, f);
   }
 
-  // RightStickYValue/Signal8の信号制御
-  if (mappedRightStickYValue != oldMappedRightStickYValue){
-    int f = FREQ_SIGNAL8 + mappedRightStickYValue * FREQ_STEP;
+  // LeftStickYValue/Signal8の信号制御
+  if (mappedLeftStickYValue != oldMappedLeftStickYValue){
+    int f = FREQ_SIGNAL8 + mappedLeftStickYValue * FREQ_STEP;
     tone(PIN_SIGNAL8, f);
   }
 
