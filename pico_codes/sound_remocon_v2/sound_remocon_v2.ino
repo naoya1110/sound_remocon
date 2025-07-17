@@ -68,6 +68,11 @@ int oldMappedLeftStickXValue = 0;
 int oldMappedLeftStickYValue = 0;
 int oldMappedRightStickYValue = 0;
 
+// スティックの値
+int leftStickXValue = 0;
+int leftStickYValue = 0;
+int rightStickYValue = 0;
+
 
 void setup() {
   Serial.begin(9600);
@@ -97,139 +102,196 @@ void setup() {
 
   tone(PIN_SIGNAL7, FREQ_SIGNAL7);
   tone(PIN_SIGNAL8, FREQ_SIGNAL8);
+}
 
+// スティックの味付け関数
+int map_stick(int x) {
+  int y;
+  if (abs(x) < 75) {
+    y = 0;
+  } else {
+    y = round(x/100);
+    y = min(4, y);
+    y = max(-4, y);
+  }
+  return y;
 }
 
 void loop() {
 
-  // ボタンスイッチの値を読み取り
-  int sw1State = digitalRead(PIN_SW1);
-  int sw2State = digitalRead(PIN_SW2);
-  int sw3State = digitalRead(PIN_SW3);
-  int sw4State = digitalRead(PIN_SW4);
-  int leftStickSwState = digitalRead(PIN_L_ST_SW);
-  int rightStickSwState = digitalRead(PIN_R_ST_SW);
+  Serial.println("Calibating.....");
+  // スティックのキャリブレーション
 
-  // スティックの値の読み取り
-  int leftStickXValue = analogRead(PIN_L_ST_X);
-  int leftStickYValue = analogRead(PIN_L_ST_Y);
-  int rightStickYValue = analogRead(PIN_R_ST_Y);
+  // スティックのニュートラル値
+  int neutralLeftStickX = 0;
+  int neutralLeftStickY = 0;
+  int neutralRightStickY = 0;
+  int nCalib = 30;
 
-  // スティックの値をマップ -4から+4にマップ
-  int mappedLeftStickXValue = map(leftStickXValue, 0, 1023, -4, 4);
-  int mappedLeftStickYValue = map(leftStickYValue, 0, 1023, -4, 4);
-  int mappedRightStickYValue = map(rightStickYValue, 0, 1023, -4, 4);
+  for (int i=0; i<nCalib; i++) {
+    digitalWrite(LED_BUILTIN, HIGH);
+    neutralLeftStickX += analogRead(PIN_L_ST_X);
+    neutralLeftStickY += analogRead(PIN_L_ST_Y);
+    neutralRightStickY += analogRead(PIN_R_ST_Y);
+    delay(100);
+    digitalWrite(LED_BUILTIN, LOW);
+    delay(50);
+  }
 
-  // SW1/Signal1の信号制御
-  if (sw1State != oldSw1State) {
-    if (sw1State == 1) {
-      tone(PIN_SIGNAL1, FREQ_SIGNAL1);
-    } else if (sw1State == 0) {
-      noTone(PIN_SIGNAL1);
+  neutralLeftStickX /= nCalib;
+  neutralLeftStickY /= nCalib;
+  neutralRightStickY /= nCalib;
+  
+  Serial.println("Stick Neutral Values");
+  Serial.print(neutralLeftStickX);
+  Serial.print("\t");
+  Serial.print(neutralLeftStickY);
+  Serial.print("\t");
+  Serial.println(neutralRightStickY);
+  delay(2000);
+
+  while(1) {
+    digitalWrite(LED_BUILTIN, HIGH);
+
+    // ボタンスイッチの値を読み取り
+    int sw1State = digitalRead(PIN_SW1);
+    int sw2State = digitalRead(PIN_SW2);
+    int sw3State = digitalRead(PIN_SW3);
+    int sw4State = digitalRead(PIN_SW4);
+    int leftStickSwState = digitalRead(PIN_L_ST_SW);
+    int rightStickSwState = digitalRead(PIN_R_ST_SW);
+
+    // スティックの値の読み取り
+    leftStickXValue = analogRead(PIN_L_ST_X);
+    leftStickYValue = analogRead(PIN_L_ST_Y);
+    rightStickYValue = analogRead(PIN_R_ST_Y);
+
+    leftStickXValue -= neutralLeftStickX;
+    leftStickYValue -= neutralLeftStickY;
+    rightStickYValue -= neutralRightStickY;
+
+    // スティックの値をマップ -4から+4にマップ
+    int mappedLeftStickXValue = map_stick(leftStickXValue);
+    int mappedLeftStickYValue = map_stick(leftStickYValue);
+    int mappedRightStickYValue = map_stick(rightStickYValue);
+
+    // SW1/Signal1の信号制御
+    if (sw1State != oldSw1State) {
+      if (sw1State == 1) {
+        tone(PIN_SIGNAL1, FREQ_SIGNAL1);
+      } else if (sw1State == 0) {
+        noTone(PIN_SIGNAL1);
+      }
     }
-  }
 
-  // SW2/Signal2の信号制御
-  if (sw2State != oldSw2State) {
-    if (sw2State == 1) {
-      tone(PIN_SIGNAL2, FREQ_SIGNAL2);
-    } else if (sw2State == 0) {
-      noTone(PIN_SIGNAL2);
+    // SW2/Signal2の信号制御
+    if (sw2State != oldSw2State) {
+      if (sw2State == 1) {
+        tone(PIN_SIGNAL2, FREQ_SIGNAL2);
+      } else if (sw2State == 0) {
+        noTone(PIN_SIGNAL2);
+      }
     }
-  }
 
-  // SW3/Signal3の信号制御
-  if (sw3State != oldSw3State) {
-    if (sw3State == 1) {
-      tone(PIN_SIGNAL3, FREQ_SIGNAL3);
-    } else if (sw3State == 0) {
-      noTone(PIN_SIGNAL3);
+    // SW3/Signal3の信号制御
+    if (sw3State != oldSw3State) {
+      if (sw3State == 1) {
+        tone(PIN_SIGNAL3, FREQ_SIGNAL3);
+      } else if (sw3State == 0) {
+        noTone(PIN_SIGNAL3);
+      }
     }
-  }
 
-  // SW4/Signal4の信号制御
-  if (sw4State != oldSw4State) {
-    if (sw4State == 1) {
-      tone(PIN_SIGNAL4, FREQ_SIGNAL4);
-    } else if (sw4State == 0) {
-      noTone(PIN_SIGNAL4);
+    // SW4/Signal4の信号制御
+    if (sw4State != oldSw4State) {
+      if (sw4State == 1) {
+        tone(PIN_SIGNAL4, FREQ_SIGNAL4);
+      } else if (sw4State == 0) {
+        noTone(PIN_SIGNAL4);
+      }
     }
-  }
 
-  // LeftStickSW/Signal5の信号制御
-  if (leftStickSwState != oldLeftStickSwState) {
-    if (leftStickSwState == 1) {
-      tone(PIN_SIGNAL5, FREQ_SIGNAL5);
-    } else if (leftStickSwState == 0) {
-      noTone(PIN_SIGNAL5);
+    // LeftStickSW/Signal5の信号制御
+    if (leftStickSwState != oldLeftStickSwState) {
+      if (leftStickSwState == 1) {
+        tone(PIN_SIGNAL5, FREQ_SIGNAL5);
+      } else if (leftStickSwState == 0) {
+        noTone(PIN_SIGNAL5);
+      }
     }
-  }
 
-  // RightStickSW/Signal6の信号制御
-  if (rightStickSwState != oldRightStickSwState) {
-    if (rightStickSwState == 1) {
-      tone(PIN_SIGNAL6, FREQ_SIGNAL6);
-    } else if (rightStickSwState == 0) {
-      noTone(PIN_SIGNAL6);
+    // RightStickSW/Signal6の信号制御
+    if (rightStickSwState != oldRightStickSwState) {
+      if (rightStickSwState == 1) {
+        tone(PIN_SIGNAL6, FREQ_SIGNAL6);
+      } else if (rightStickSwState == 0) {
+        noTone(PIN_SIGNAL6);
+      }
     }
+
+    // // LeftStickXValue/Signal7の信号制御
+    // if (mappedLeftStickXValue != oldMappedLeftStickXValue){
+    //   int f = FREQ_SIGNAL7 + mappedLeftStickXValue * FREQ_STEP;
+    //   tone(PIN_SIGNAL7, f);
+    // }
+
+    // LeftStickYValue/Signal7の信号制御
+    if (mappedLeftStickYValue != oldMappedLeftStickYValue){
+      int f = FREQ_SIGNAL7 + mappedLeftStickYValue * FREQ_STEP;
+      tone(PIN_SIGNAL7, f);
+    }
+
+    // RightStickYValue/Signal8の信号制御
+    if (mappedRightStickYValue != oldMappedRightStickYValue){
+      int f = FREQ_SIGNAL8 + mappedRightStickYValue * FREQ_STEP;
+      tone(PIN_SIGNAL8, f);
+    }
+
+
+
+    Serial.print(sw1State);
+    Serial.print("\t");
+    Serial.print(sw2State);
+    Serial.print("\t");
+    Serial.print(sw3State);
+    Serial.print("\t");
+    Serial.print(sw4State);
+    Serial.print("\t");
+    Serial.print(leftStickSwState);
+    Serial.print("\t");
+    Serial.print(rightStickSwState);
+    Serial.print("\t");
+    Serial.print(leftStickXValue);
+    Serial.print("\t");
+    Serial.print(mappedLeftStickXValue);
+    Serial.print("\t");
+    Serial.print(leftStickYValue);
+    Serial.print("\t");
+    Serial.print(mappedLeftStickYValue);
+    Serial.print("\t");
+    Serial.print(rightStickYValue);
+    Serial.print("\t");
+    Serial.println(mappedRightStickYValue);
+
+    // 古いデータを保持
+    oldSw1State = sw1State;
+    oldSw2State = sw2State;
+    oldSw3State = sw3State;
+    oldSw4State = sw4State;
+
+    oldLeftStickSwState = leftStickSwState;
+    oldRightStickSwState = rightStickSwState;
+
+    oldMappedLeftStickXValue = mappedLeftStickXValue;
+    oldMappedLeftStickYValue = mappedLeftStickYValue;
+    oldMappedRightStickYValue = mappedRightStickYValue;
+
+
+    delay(10);  // wait for a second
+
   }
 
-  // LeftStickXValue/Signal7の信号制御
-  if (mappedLeftStickXValue != oldMappedLeftStickXValue){
-    int f = FREQ_SIGNAL7 + mappedLeftStickXValue * FREQ_STEP;
-    tone(PIN_SIGNAL7, f);
-  }
-
-  // LeftStickYValue/Signal8の信号制御
-  if (mappedLeftStickYValue != oldMappedLeftStickYValue){
-    int f = FREQ_SIGNAL8 + mappedLeftStickYValue * FREQ_STEP;
-    tone(PIN_SIGNAL8, f);
-  }
-
-
-
-
-  Serial.print(sw1State);
-  Serial.print("\t");
-  Serial.print(sw2State);
-  Serial.print("\t");
-  Serial.print(sw3State);
-  Serial.print("\t");
-  Serial.print(sw4State);
-  Serial.print("\t");
-  Serial.print(leftStickSwState);
-  Serial.print("\t");
-  Serial.print(rightStickSwState);
-  Serial.print("\t");
-  Serial.print(leftStickXValue);
-  Serial.print("\t");
-  Serial.print(mappedLeftStickXValue);
-  Serial.print("\t");
-  Serial.print(leftStickYValue);
-  Serial.print("\t");
-  Serial.print(mappedLeftStickYValue);
-  Serial.print("\t");
-  Serial.print(rightStickYValue);
-  Serial.print("\t");
-  Serial.println(mappedRightStickYValue);
-
-  // 古いデータを保持
-  oldSw1State = sw1State;
-  oldSw2State = sw2State;
-  oldSw3State = sw3State;
-  oldSw4State = sw4State;
-
-  oldLeftStickSwState = leftStickSwState;
-  oldRightStickSwState = rightStickSwState;
-
-  oldMappedLeftStickXValue = mappedLeftStickXValue;
-  oldMappedLeftStickYValue = mappedLeftStickYValue;
-  oldMappedRightStickYValue = mappedRightStickYValue;
-
-  // デバッグ用：オンボードLED
-  digitalWrite(LED_BUILTIN, rightStickSwState);
-
-  delay(10);  // wait for a second
+  
 
 
 }
