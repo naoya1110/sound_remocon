@@ -110,7 +110,7 @@ int map_stick(int x) {
   if (abs(x) < 75) {
     y = 0;
   } else {
-    y = round(x/100);
+    y = round(x/90);
     y = min(4, y);
     y = max(-4, y);
   }
