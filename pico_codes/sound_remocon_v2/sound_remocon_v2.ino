@@ -8,9 +8,9 @@
 // SW4 ----------------> GPIO2 ---|-- GPIO11 -----> Signal4 ----- 950Hz
 // LEFT STICK SW ------> GPIO21 --|-- GPIO12 -----> Signal5 ----- 1000Hz
 // RIGHT STICK SW -----> GPIO22 --|-- GPIO13 -----> Signal6 ----- 1050Hz
-// LEFT STICK X -------> ADC0 ----|-- GPIO14 -----> Signal7 ----- 510-550-590Hz
-// LEFT STICK Y -------> ADC1 ----|-- GPIO15 -----> Signal8 ----- 660-700-740Hz
-// RIGHT STICK Y ------> ADC2 ----|-- None -------- None
+// LEFT STICK X -------> ADC0 ----|-- None -------> None
+// LEFT STICK Y -------> ADC1 ----|-- GPIO14 -----> Signal7 ----- 510-550-590Hz
+// RIGHT STICK Y ------> ADC2 ----|-- GPIO15 -----> Signal8 ----- 660-700-740Hz
 // -------------------------------|--------------------------------------
 
 
