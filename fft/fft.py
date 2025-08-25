@@ -7,7 +7,7 @@ from matplotlib.animation import FuncAnimation
 FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
-CHUNK = 1024*16
+CHUNK = 1024*8
 
 # --- PyAudio Setup ---
 p = pyaudio.PyAudio()
