@@ -28,7 +28,7 @@ if set_y_axis_in_log_scale:
     ax.set_ylim(1E-1, 1E+5)
     ax.set_yscale('log')
 else:
-    ax.set_ylim(0, 1E+5)
+    ax.set_ylim(0, 3E+8)
     
 ax.set_xlim(0, RATE / 2)
 ax.set_title("Real-Time Audio FFT Spectrum")
